@@ -8,7 +8,7 @@ import datetime
 
 class voting_system:
     def __init__(self):
-        self.db=connector.connect(host='localhost',port = 3306,user='root',password='Suhas@#$10112003', database='votingsystem')
+        self.db=connector.connect(host='localhost',port = 3306,user='root',password='Suhas@#$10112003', database='vote')
         
     
     def sign_up(self):
