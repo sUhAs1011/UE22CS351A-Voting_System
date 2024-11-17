@@ -63,12 +63,12 @@ Before running the python file ensure that you do a few according to the mysql y
    # or
    python3 final.py
    ```
-###Command for creating the database
+### Command for creating the database
  ```shell
     create database vote;
    ```
 
-###Command for using the database
+### Command for using the database
  ```shell
     use vote;
    ```
