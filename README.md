@@ -54,21 +54,4 @@ The **Leave** option provides voters or candidates the ability to exit the porta
 This project demonstrates our ability to integrate **Database Management Systems** with practical coding applications, fostering a secure and efficient digital election process.
 
 
-----
-Before running the python file ensure that you do a few according to the mysql you have, ensure that you change the password and the database name according to the naming convention you put when you made the database and also ensure that the database with the same is present when you running the python file.
 
-### Running the Python script
- ```shell
-   python final.py
-   # or
-   python3 final.py
-   ```
-### Command for creating the database
- ```shell
-    create database vote;
-   ```
-
-### Command for using the database
- ```shell
-    use vote;
-   ```
