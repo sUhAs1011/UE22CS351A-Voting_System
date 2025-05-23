@@ -1,14 +1,33 @@
+CREATE TABLE districts (
+    district_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE
+);
+
 CREATE TABLE voters (
     voter_id VARCHAR(255) NOT NULL PRIMARY KEY,
     aadhaar VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
-    name VARCHAR(255) -- Added a name column as it's generally useful
+    name VARCHAR(255) NOT NULL,
+    dob DATE NOT NULL,
+    email VARCHAR(255) NULL,
+    district_id INT NULL,
+    FOREIGN KEY (district_id) REFERENCES districts(district_id)
+);
+
+CREATE TABLE parties (
+    party_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    symbol_details VARCHAR(255) NULL, -- For symbol description or URL
+    leader_info VARCHAR(255) NULL    -- For party leader details
 );
 
 CREATE TABLE candidates (
     candidate_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
-    party VARCHAR(255) NOT NULL
+    party_id INT NULL,
+    district_id INT NULL,
+    FOREIGN KEY (party_id) REFERENCES parties(party_id),
+    FOREIGN KEY (district_id) REFERENCES districts(district_id)
 );
 
 CREATE TABLE votes (
@@ -20,16 +39,22 @@ CREATE TABLE votes (
     UNIQUE(voter_id) -- Ensures a voter can only vote once
 );
 
--- Optional: Add some initial admin/voter data for testing
+-- Optional: Add some initial admin/voter data for testing (Update as needed)
 
--- Example Admin (though admin authentication in the script is not DB based)
--- INSERT INTO voters (voter_id, aadhaar, password, name) VALUES ('admin_user', '000000000000', 'admin_password', 'Admin User');
+-- Example Districts
+INSERT INTO districts (name) VALUES ('North District');
+INSERT INTO districts (name) VALUES ('South District');
+INSERT INTO districts (name) VALUES ('East District');
+INSERT INTO districts (name) VALUES ('West Central District');
 
--- Example Voter
-INSERT INTO voters (voter_id, aadhaar, password, name) VALUES ('VOTER001', '123456789012', 'password123', 'John Doe');
-INSERT INTO voters (voter_id, aadhaar, password, name) VALUES ('VOTER002', '210987654321', 'securepass', 'Jane Smith');
 
--- Example Candidates
-INSERT INTO candidates (name, party) VALUES ('Alice Wonderland', 'People's Party');
-INSERT INTO candidates (name, party) VALUES ('Bob The Builder', 'Constructive Party');
-INSERT INTO candidates (name, party) VALUES ('Charlie Brown', 'Good Grief Party'); 
+-- Example Voter (update with DOB, email, district_id)
+-- INSERT INTO voters (voter_id, aadhaar, password, name, dob, email, district_id) VALUES ('VOTER001', '123456789012', 'password123', 'John Doe', '1990-01-01', 'john.doe@example.com', 1);
+-- INSERT INTO voters (voter_id, aadhaar, password, name, dob, email, district_id) VALUES ('VOTER002', '210987654321', 'securepass', 'Jane Smith', '1985-05-15', 'jane.smith@example.com', 2);
+
+-- Example Parties
+INSERT INTO parties (name, symbol_details, leader_info) VALUES ('Progressive Party', 'Star Symbol', 'Leader A');
+INSERT INTO parties (name, symbol_details, leader_info) VALUES ('Liberty Alliance', 'Eagle Symbol', 'Leader B');
+INSERT INTO parties (name, symbol_details, leader_info) VALUES ('Green Initiative', 'Tree Symbol', 'Leader C');
+INSERT INTO parties (name, symbol_details, leader_info) VALUES ('Independent Group', 'Hand Symbol', 'Coordinator X');
+INSERT INTO parties (name, symbol_details, leader_info) VALUES ('Future Forward Party', 'Arrow Symbol', 'Leader D');
