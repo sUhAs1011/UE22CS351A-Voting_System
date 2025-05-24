@@ -58,3 +58,11 @@ INSERT INTO parties (name, symbol_details, leader_info) VALUES ('Liberty Allianc
 INSERT INTO parties (name, symbol_details, leader_info) VALUES ('Green Initiative', 'Tree Symbol', 'Leader C');
 INSERT INTO parties (name, symbol_details, leader_info) VALUES ('Independent Group', 'Hand Symbol', 'Coordinator X');
 INSERT INTO parties (name, symbol_details, leader_info) VALUES ('Future Forward Party', 'Arrow Symbol', 'Leader D');
+
+
+-- Example Candidates (update with party_id, district_id)
+-- INSERT INTO candidates (name, party_id, district_id) VALUES ('Candidate Alpha', 1, 1); -- Belongs to Progressive Party, North District
+-- INSERT INTO candidates (name, party_id, district_id) VALUES ('Candidate Beta', 2, 1);  -- Belongs to Liberty Alliance, North District
+-- INSERT INTO candidates (name, party_id, district_id) VALUES ('Candidate Gamma', 3, 2); -- Belongs to Green Initiative, South District
+-- INSERT INTO candidates (name, party_id, district_id) VALUES ('Candidate Epsilon', 5, 2); -- Belongs to Future Forward, South District
+-- INSERT INTO candidates (name, party_id, district_id) VALUES ('Independent Candidate Delta', 4, 1); -- Belongs to Independent Group, North District 
