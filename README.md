@@ -1,4 +1,4 @@
-# Voting System: Fifth Semester DBMS Mini-Project
+# DBMS Mini-Project
 
 Our **DBMS Mini-Project**, titled *Voting System*, is an electronic voting platform developed as part of our fifth-semester coursework. This project leverages **Python** and **MySQL** as primary tools to implement a robust and secure voting system. The system uses **MySQL Connector** to establish a connection between Python and the database, enabling seamless CRUD (Create, Read, Update, Delete) operations using **DML (Data Manipulation Language)** commands.
 
