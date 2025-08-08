@@ -52,16 +52,16 @@ The **Leave** option provides voters or candidates the ability to exit the porta
 - **Comprehensive Validation:** Ensures data correctness (e.g., Aadhaar validation, age checks).
 
 ### Login
-![WhatsApp Image 2025-08-08 at 12 09 25_02021ae1](https://github.com/user-attachments/assets/7875681c-91bf-4eb8-8759-2565b10279e9)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/20b408e1-e3c1-4bf4-8ce7-a153ecc2bffa" />
 
 ### Sign-Up
-![WhatsApp Image 2025-08-08 at 12 09 44_73208eca](https://github.com/user-attachments/assets/40f22504-81b2-4dbb-8a90-5e77dc31f9e8)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/20422653-29f0-43d8-b93e-ce14b995c96d" />
 
 ### Admin Panel
-![WhatsApp Image 2025-08-08 at 12 09 58_4c54189f](https://github.com/user-attachments/assets/c2fb4766-3a19-4a3e-a017-98530f3a5bad)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/772e2847-8cc7-4572-8a85-547cbf70bfa4" />
 
 ### Results Panel
-![WhatsApp Image 2025-08-08 at 12 12 04_88760e44](https://github.com/user-attachments/assets/5225a3e1-4631-4cc6-8a00-115098df07e1)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1419080-7a23-458c-be66-4f3c3b25781e" />
 
 
 ### Team Members
