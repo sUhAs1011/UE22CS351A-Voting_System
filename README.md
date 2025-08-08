@@ -58,7 +58,7 @@ The **Leave** option provides voters or candidates the ability to exit the porta
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/02bb7ef6-8e73-4932-8a00-29fe4d3018f2" />
 
 ### Admin Panel
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/772e2847-8cc7-4572-8a85-547cbf70bfa4" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b54c6222-ac5f-4842-b6c3-88d1fe867bb6" />
 
 ### Results Panel
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f1419080-7a23-458c-be66-4f3c3b25781e" />
