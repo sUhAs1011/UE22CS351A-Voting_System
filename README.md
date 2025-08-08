@@ -64,12 +64,10 @@ The **Leave** option provides voters or candidates the ability to exit the porta
 ![WhatsApp Image 2025-08-08 at 12 12 04_88760e44](https://github.com/user-attachments/assets/5225a3e1-4631-4cc6-8a00-115098df07e1)
 
 
+### Team Members
 
-
-
-
-This project demonstrates our ability to integrate **Database Management Systems** with practical coding applications, fostering a secure and efficient digital election process.
-
+- Suhas Venkata Karamalaputti(PES2UG22CS590)
+- Soham Pravin Salunkhe(PES2UG22CS565)
 
 
 
